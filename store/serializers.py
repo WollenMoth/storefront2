@@ -1,6 +1,5 @@
 from decimal import Decimal
-from django.db import models
-from rest_framework import fields, serializers
+from rest_framework import serializers
 from store.models import Product, Collection
 
 

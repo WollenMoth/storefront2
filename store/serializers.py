@@ -9,8 +9,6 @@ class CollectionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Collection
         fields = ['id', 'title', 'products_count']
-    products_count = serializers.SerializerMethodField(
-        method_name='get_products_count')
 
 
 class ProductSerializer(serializers.ModelSerializer):
@@ -42,7 +40,6 @@ class SimpleProductSerializer(serializers.ModelSerializer):
 
 
 class CartItemSerializer(serializers.ModelSerializer):
-
     product = SimpleProductSerializer()
     total_price = serializers.SerializerMethodField(
         method_name='get_total_price')

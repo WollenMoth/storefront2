@@ -4,6 +4,8 @@ from django.core.validators import MinValueValidator
 from django.db import models
 from uuid import uuid4
 
+from rest_framework import permissions
+
 
 class Promotion(models.Model):
     description = models.CharField(max_length=255)
@@ -73,6 +75,9 @@ class Customer(models.Model):
 
     class Meta:
         ordering = ['user__first_name', 'user__last_name']
+        permissions = [
+            ('view_history', 'Can view history')
+        ]
 
 
 class Order(models.Model):

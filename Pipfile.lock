@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0b6e08d53faf3b8fa95b33b3074efec7e57513a8306ff3a85f6bbeb6443ba7ac"
+            "sha256": "82b87468c8029fc475370d1f663e9f0d86b032291fd0288741ad9ac7e542bcc9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -371,21 +371,13 @@
             "index": "pypi",
             "version": "==23.0"
         },
-        "pip": {
-            "hashes": [
-                "sha256:aee438284e82c8def684b0bcc50b1f6ed5e941af97fa940e83e2e8ef1a59da9b",
-                "sha256:b5f88adff801f5ef052bcdef3daa31b55eb67b0fccd6d0106c206fa248e0463c"
-            ],
-            "index": "pypi",
-            "version": "==23.0"
-        },
         "pipenv": {
             "hashes": [
-                "sha256:05958fadcd70b2de6a27542fcd2bd72dd5c59c6d35307fdac3e06361fb06e30e",
-                "sha256:d180f5be4775c552fd5e69ae18a9d6099d9dafb462efe54f11c72cb5f4d5e977"
+                "sha256:3b80b4512934b9d8e8ce12c988394642ff96bb697680e5b092e59af503178327",
+                "sha256:f84d7119239b22ab2ac2b8fbc7d619d83cf41135206d72a17c4f151cda529fd0"
             ],
             "index": "pypi",
-            "version": "==2021.5.29"
+            "version": "==2022.1.8"
         },
         "platformdirs": {
             "hashes": [

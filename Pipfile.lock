@@ -42,11 +42,11 @@
         },
         "certifi": {
             "hashes": [
-                "sha256:78884e7c1d4b00ce3cea67b44566851c4343c120abd683433ce934a68ea58872",
-                "sha256:d62a0163eb4c2344ac042ab2bdf75399a71a2d8c7d47eac2e2ee91b9d6339569"
+                "sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3",
+                "sha256:4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18"
             ],
             "index": "pypi",
-            "version": "==2021.10.8"
+            "version": "==2022.12.7"
         },
         "cffi": {
             "hashes": [
@@ -373,11 +373,11 @@
         },
         "pipenv": {
             "hashes": [
-                "sha256:05958fadcd70b2de6a27542fcd2bd72dd5c59c6d35307fdac3e06361fb06e30e",
-                "sha256:d180f5be4775c552fd5e69ae18a9d6099d9dafb462efe54f11c72cb5f4d5e977"
+                "sha256:3b80b4512934b9d8e8ce12c988394642ff96bb697680e5b092e59af503178327",
+                "sha256:f84d7119239b22ab2ac2b8fbc7d619d83cf41135206d72a17c4f151cda529fd0"
             ],
             "index": "pypi",
-            "version": "==2021.5.29"
+            "version": "==2022.1.8"
         },
         "platformdirs": {
             "hashes": [
